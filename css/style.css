@@ -1,0 +1,327 @@
+/* Start of Index page */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e3e6e8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0px auto;
+  background-color: white;
+  box-shadow: 1px 2px 15px #333;
+}
+.container #header #menu ul li a.active {
+  color: #009933;
+}
+.conatiner #header {
+  width: 100%;
+  height: 100px;
+}
+.container #header #logo {
+  float: left;
+  width: 15%;
+  padding: 20px 0px 15px 15px;
+}
+.container #header #menu {
+  float: left;
+  padding-top: 25px;
+}
+.container #header #menu ul li {
+  display: inline;
+  font-size: 18px;
+  padding: 10px;
+}
+.container #header #menu ul li a {
+  text-decoration: none;
+  color: #777;
+}
+.container #header #menu ul li a:hover {
+  color: #009933;
+}
+.container #header #search-bar {
+  float: left;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+.container #header #search-bar input[type="text"] {
+  width: 200px;
+  height: 30px;
+  margin-right: -45px;
+  border-radius: 30px;
+  padding: 2px 10px;
+  border: #e3e6e8 1px solid;
+  outline: none;
+}
+.container #header #search-bar button {
+  height: 36px;
+  width: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #009933;
+  color: #fff;
+  outline: none;
+}
+.container #header #search-bar button:hover {
+  transform: scale(1.1);
+}
+.container #main #slide-bar #img {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/car1.jpg);
+  background-position: bottom right;
+  animation: slider 10s infinite;
+}
+@keyframes slider {
+  0% {
+    background-image: url(../images/car1.jpg);
+  }
+  25% {
+    background-image: url(../images/car2.jpg);
+  }
+  50% {
+    background-image: url(../images/car3.jpg);
+  }
+  75% {
+    background-image: url(../images/car4.png);
+  }
+}
+#permbajtja {
+  margin: 0 auto;
+  background-color: #009933;
+}
+#permbajtja .box {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 1px solid rgb(153, 158, 166);
+  height: 300px;
+}
+#permbajtja .visioni {
+  border-right: none !important;
+}
+.box img {
+  padding-top: 20px;
+}
+.box h3 {
+  color: #fff;
+}
+.box p {
+  color: rgb(153, 158, 166);
+  padding: 0px 40px;
+}
+#rrethnesh {
+  width: 100%;
+  height: 420px;
+}
+#rrethnesh #rrethneshh {
+  float: left;
+  width: 70%;
+}
+#rrethnesh #rrethneshh #fotoja {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 60%;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja {
+  float: left;
+  font-size: 14px;
+  width: 30%;
+  margin-left: 18px;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja h3,
+.container #main #rrethnesh #klientet h3 {
+  text-transform: uppercase;
+  color: #009933;
+  border-bottom: #009933 2px solid;
+  padding-bottom: 10px;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja p {
+  padding-left: 15px;
+}
+#main #rrethnesh #rrethneshh > p {
+  font-size: 14px;
+  margin: 0px 15px;
+}
+#main #rrethnesh #klientet {
+  float: right;
+  width: 28%;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.container #main #rrethnesh #klientet h4 {
+  color: #009933;
+}
+.container #main #rrethnesh #klientet p {
+  margin-top: -15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.container #main #prefooter {
+  background-color: #009933;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+.container #main #prefooter P {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  width: 240px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container #footer {
+  width: 100%;
+  height: 90px;
+}
+.container #footer p {
+  font-size: 14px;
+  padding-top: 20px;
+  float: left;
+  padding-left: 15px;
+}
+.container #footer p b {
+  color: #009933;
+}
+.container #footer ul {
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.container #footer ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+.container #footer ul li a img:hover {
+  transform: scale(1.1);
+}
+/* End of Index page */
+
+/* Start of Klientet page */
+.image {
+  background-image: url(../images/car5.png);
+  background-position: bottom left;
+  width: 100%;
+  height: 200px;
+}
+.image h1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tabela {
+  width: 95%;
+  margin: 0 auto;
+}
+.tabela h1 {
+  color: #009933;
+  padding: 20px 0px 10px 10px;
+  margin: 0px 15px;
+  font-size: 25px;
+  border-bottom: 2px solid #009933;
+}
+#klientet_table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 98%;
+  margin: 30px 15px 0px 15px;
+}
+#klientet_table td,
+#klientet_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#klientet_table tr:nth-child(even) {
+  background-color: #eee;
+}
+#klientet_table tr:hover {
+  background-color: #ddd;
+}
+#klientet_table th {
+  padding: 12px;
+  text-align: left;
+  background-color: #009933;
+  color: white;
+}
+#shto_klient {
+  float: right;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #009933;
+  border: none;
+}
+#shto_klient:hover {
+  background-color: #007733;
+  transform: scale(1.1);
+}
+.fa-pencil-square-o {
+  color: #0000ff;
+}
+.fa-trash {
+  color: #ff0000;
+}
+#modifiko i {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#fshiej i {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Start of Login page */
+
+.login-page {
+  width: 400px;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 15px #fff;
+}
+.login-page h1 {
+  color: #009933;
+  text-align: center;
+}
+.login-page input[type="text"],
+.login-page input[type="email"],
+.login-page input[type="password"] {
+  outline: none;
+  width: 90%;
+  margin: 2% 5%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #009933;
+}
+.login-page input[type="submit"] {
+  text-decoration: none;
+  text-align: center;
+  background-color: #009933;
+  padding: 10px 20px;
+  color: #fff;
+  position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  border: none;
+  margin-bottom: 70px;
+  border: 3px solid #fff;
+}
+.login-page input[type="submit"]:hover {
+  background-color: #fff;
+  color: #009933;
+  border: 3px solid #009933;
+}
